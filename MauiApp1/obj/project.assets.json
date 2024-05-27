@@ -15,6 +15,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -209,6 +229,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -311,6 +344,52 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
           }
         }
       },
@@ -2057,6 +2136,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -2251,6 +2350,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -2353,6 +2465,52 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
           }
         }
       },
@@ -4099,6 +4257,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -4293,6 +4471,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -4395,6 +4586,52 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
           }
         }
       },
@@ -6141,6 +6378,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -6335,6 +6592,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -6437,6 +6707,52 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
           }
         }
       },
@@ -8183,6 +8499,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -8377,6 +8713,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -8479,6 +8828,52 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
           }
         }
       },
@@ -10225,6 +10620,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -10419,6 +10834,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -10521,6 +10949,52 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
           }
         }
       },
@@ -12267,6 +12741,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -12461,6 +12955,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -12563,6 +13070,52 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
           }
         }
       },
@@ -14309,6 +14862,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -14503,6 +15076,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plainer.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -14605,6 +15191,52 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/UraniumUI.Material.dll": {
+            "related": ".aar;.pdb;.xml"
           }
         }
       },
@@ -16338,6 +16970,26 @@
       }
     },
     "net7.0-ios16.1": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16532,6 +17184,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -16599,11 +17264,77 @@
         "compile": {
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
     },
     "net7.0-ios16.1/android-arm": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16798,6 +17529,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -16865,11 +17609,77 @@
         "compile": {
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
     },
     "net7.0-ios16.1/android-arm64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17064,6 +17874,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -17131,11 +17954,77 @@
         "compile": {
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
     },
     "net7.0-ios16.1/android-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17330,6 +18219,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -17397,11 +18299,77 @@
         "compile": {
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
     },
     "net7.0-ios16.1/android-x86": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17596,6 +18564,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -17663,11 +18644,77 @@
         "compile": {
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17862,6 +18909,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -17929,11 +18989,77 @@
         "compile": {
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18128,6 +19254,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -18195,11 +19334,77 @@
         "compile": {
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
           }
         }
       }
     },
     "net7.0-ios16.1/win10-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18392,6 +19597,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -18463,9 +19681,75 @@
             "related": ".xml"
           }
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18658,6 +19942,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -18819,9 +20116,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19014,6 +20377,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -19092,9 +20468,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19287,6 +20729,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -19365,9 +20820,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19560,6 +21081,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -19638,9 +21172,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19833,6 +21433,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -19911,9 +21524,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20106,6 +21785,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -20181,9 +21873,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20376,6 +22134,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -20454,9 +22225,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20651,6 +22488,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -20727,9 +22577,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21051,6 +22967,19 @@
           }
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -21210,9 +23139,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21504,6 +23499,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -21582,9 +23590,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21876,6 +23950,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -21954,9 +24041,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -22248,6 +24401,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -22326,9 +24492,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-x86": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -22620,6 +24852,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -22698,9 +24943,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -22992,6 +25303,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -23067,9 +25391,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -23361,6 +25751,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "sqlite-net-pcl/1.9.172": {
@@ -23439,9 +25842,75 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
+      "InputKit.Maui/4.2.11": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -23741,6 +26210,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Plainer.Maui/1.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Plainer.Maui.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "type": "package",
         "dependencies": {
@@ -23817,6 +26299,52 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "UraniumUI/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "InputKit.Maui": "4.2.11",
+          "Plainer.Maui": "1.6.3"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Icons.FontAwesome/2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "UraniumUI.Material/2.4.4": {
+        "type": "package",
+        "dependencies": {
+          "UraniumUI": "2.4.4"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll": {
+            "related": ".pdb"
+          }
+        }
       }
     }
   },
@@ -23837,6 +26365,40 @@
         "lib/net6.0-android31.0/GoogleGson.aar",
         "lib/net6.0-android31.0/GoogleGson.dll",
         "lib/net6.0-android31.0/GoogleGson.xml"
+      ]
+    },
+    "InputKit.Maui/4.2.11": {
+      "sha512": "9B/vIfy/kGJabys+vjVZ1WICEtT7Q+hUxutcueENjn2B0f4S3jRaWuAjZVWeexgn2zScYr/P0C+2hm0sBmWJ5g==",
+      "type": "package",
+      "path": "inputkit.maui/4.2.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/icon512.png",
+        "contentFiles/any/net7.0-android33.0/icon512.png",
+        "contentFiles/any/net7.0-ios16.1/icon512.png",
+        "contentFiles/any/net7.0-maccatalyst16.1/icon512.png",
+        "contentFiles/any/net7.0-windows10.0.19041/icon512.png",
+        "contentFiles/any/net7.0/icon512.png",
+        "icon512.png",
+        "inputkit.maui.4.2.11.nupkg.sha512",
+        "inputkit.maui.nuspec",
+        "lib/net7.0-android33.0/InputKit.Maui.aar",
+        "lib/net7.0-android33.0/InputKit.Maui.dll",
+        "lib/net7.0-android33.0/InputKit.Maui.pdb",
+        "lib/net7.0-android33.0/InputKit.Maui.xml",
+        "lib/net7.0-ios16.1/InputKit.Maui.dll",
+        "lib/net7.0-ios16.1/InputKit.Maui.pdb",
+        "lib/net7.0-ios16.1/InputKit.Maui.xml",
+        "lib/net7.0-maccatalyst16.1/InputKit.Maui.dll",
+        "lib/net7.0-maccatalyst16.1/InputKit.Maui.pdb",
+        "lib/net7.0-maccatalyst16.1/InputKit.Maui.xml",
+        "lib/net7.0-windows10.0.19041/InputKit.Maui.dll",
+        "lib/net7.0-windows10.0.19041/InputKit.Maui.pdb",
+        "lib/net7.0-windows10.0.19041/InputKit.Maui.xml",
+        "lib/net7.0/InputKit.Maui.dll",
+        "lib/net7.0/InputKit.Maui.pdb",
+        "lib/net7.0/InputKit.Maui.xml"
       ]
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
@@ -25103,6 +27665,28 @@
         "tools/x86/GenXbf.dll"
       ]
     },
+    "Plainer.Maui/1.6.3": {
+      "sha512": "EqkDHAyLU88DGi28yh4wDZaRXd2aA4c9DSSQjb7zwb5e9HapNkL7L4vzIj88iaeGE71VfZPeEFKm2C62d3FL3A==",
+      "type": "package",
+      "path": "plainer.maui/1.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net7.0-android33.0/Plainer.Maui.aar",
+        "lib/net7.0-android33.0/Plainer.Maui.dll",
+        "lib/net7.0-android33.0/Plainer.Maui.pdb",
+        "lib/net7.0-android33.0/Plainer.Maui.xml",
+        "lib/net7.0-ios16.1/Plainer.Maui.dll",
+        "lib/net7.0-ios16.1/Plainer.Maui.pdb",
+        "lib/net7.0-maccatalyst16.1/Plainer.Maui.dll",
+        "lib/net7.0-maccatalyst16.1/Plainer.Maui.pdb",
+        "lib/net7.0/Plainer.Maui.dll",
+        "lib/net7.0/Plainer.Maui.pdb",
+        "plainer.maui.1.6.3.nupkg.sha512",
+        "plainer.maui.nuspec"
+      ]
+    },
     "sqlite-net-pcl/1.9.172": {
       "sha512": "go533+huyvg5bOMmCpX+DyvLrcVRiEBIpqEiDHgXRijWIBBNkWnyMr/w+5ZzrUArKY+4ApucsbBnFtP3QITrJg==",
       "type": "package",
@@ -25323,6 +27907,111 @@
         "system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
         "system.runtime.interopservices.nfloat.internal.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "UraniumUI/2.4.4": {
+      "sha512": "hPUUE3ucOhbhI3S35zv6uLJ+ONhWpmI6n4uW1jD2s6xe+j2UwPk0t9dHUC+2weXcKTK1TSf+s3lsiz+eEpeO6Q==",
+      "type": "package",
+      "path": "uraniumui/2.4.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0-android31.0/UraniumUI.dll",
+        "lib/net6.0-android31.0/UraniumUI.pdb",
+        "lib/net6.0-android31.0/UraniumUI.xml",
+        "lib/net6.0-ios16.1/UraniumUI.dll",
+        "lib/net6.0-ios16.1/UraniumUI.pdb",
+        "lib/net6.0-maccatalyst16.1/UraniumUI.dll",
+        "lib/net6.0-maccatalyst16.1/UraniumUI.pdb",
+        "lib/net6.0-windows10.0.19041/UraniumUI.dll",
+        "lib/net6.0-windows10.0.19041/UraniumUI.pdb",
+        "lib/net6.0/UraniumUI.dll",
+        "lib/net6.0/UraniumUI.pdb",
+        "lib/net7.0-android33.0/UraniumUI.aar",
+        "lib/net7.0-android33.0/UraniumUI.dll",
+        "lib/net7.0-android33.0/UraniumUI.pdb",
+        "lib/net7.0-android33.0/UraniumUI.xml",
+        "lib/net7.0-ios16.1/UraniumUI.dll",
+        "lib/net7.0-ios16.1/UraniumUI.pdb",
+        "lib/net7.0-maccatalyst16.1/UraniumUI.dll",
+        "lib/net7.0-maccatalyst16.1/UraniumUI.pdb",
+        "lib/net7.0-windows10.0.19041/UraniumUI.dll",
+        "lib/net7.0-windows10.0.19041/UraniumUI.pdb",
+        "lib/net7.0/UraniumUI.dll",
+        "lib/net7.0/UraniumUI.pdb",
+        "logo_128.png",
+        "uraniumui.2.4.4.nupkg.sha512",
+        "uraniumui.nuspec"
+      ]
+    },
+    "UraniumUI.Icons.FontAwesome/2.5.6": {
+      "sha512": "1CDPTPSTqNFP1+y8WHQTeNVwhnFsvhXO87Hrf0BtArLjhIxkMuTu2o+lPUkQnGJbUH8nvjMPLjpPaoZ0124ekg==",
+      "type": "package",
+      "path": "uraniumui.icons.fontawesome/2.5.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0-android31.0/UraniumUI.Icons.FontAwesome.dll",
+        "lib/net6.0-android31.0/UraniumUI.Icons.FontAwesome.pdb",
+        "lib/net6.0-android31.0/UraniumUI.Icons.FontAwesome.xml",
+        "lib/net6.0-ios16.1/UraniumUI.Icons.FontAwesome.dll",
+        "lib/net6.0-ios16.1/UraniumUI.Icons.FontAwesome.pdb",
+        "lib/net6.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll",
+        "lib/net6.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.pdb",
+        "lib/net6.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll",
+        "lib/net6.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.pdb",
+        "lib/net6.0/UraniumUI.Icons.FontAwesome.dll",
+        "lib/net6.0/UraniumUI.Icons.FontAwesome.pdb",
+        "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.aar",
+        "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.dll",
+        "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.pdb",
+        "lib/net7.0-android33.0/UraniumUI.Icons.FontAwesome.xml",
+        "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.dll",
+        "lib/net7.0-ios16.1/UraniumUI.Icons.FontAwesome.pdb",
+        "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.dll",
+        "lib/net7.0-maccatalyst16.1/UraniumUI.Icons.FontAwesome.pdb",
+        "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.dll",
+        "lib/net7.0-windows10.0.19041/UraniumUI.Icons.FontAwesome.pdb",
+        "lib/net7.0/UraniumUI.Icons.FontAwesome.dll",
+        "lib/net7.0/UraniumUI.Icons.FontAwesome.pdb",
+        "logo_128.png",
+        "uraniumui.icons.fontawesome.2.5.6.nupkg.sha512",
+        "uraniumui.icons.fontawesome.nuspec"
+      ]
+    },
+    "UraniumUI.Material/2.4.4": {
+      "sha512": "Qm07d5DWmYsWmTYCqDwtP6XIzY5M3elrwT0LkqdSDJBq7sr14E6y3q6lsySze54f4BGYpxzqaU3eHr4q2HhZpg==",
+      "type": "package",
+      "path": "uraniumui.material/2.4.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0-android31.0/UraniumUI.Material.dll",
+        "lib/net6.0-android31.0/UraniumUI.Material.pdb",
+        "lib/net6.0-android31.0/UraniumUI.Material.xml",
+        "lib/net6.0-ios16.1/UraniumUI.Material.dll",
+        "lib/net6.0-ios16.1/UraniumUI.Material.pdb",
+        "lib/net6.0-maccatalyst16.1/UraniumUI.Material.dll",
+        "lib/net6.0-maccatalyst16.1/UraniumUI.Material.pdb",
+        "lib/net6.0-windows10.0.19041/UraniumUI.Material.dll",
+        "lib/net6.0-windows10.0.19041/UraniumUI.Material.pdb",
+        "lib/net6.0/UraniumUI.Material.dll",
+        "lib/net6.0/UraniumUI.Material.pdb",
+        "lib/net7.0-android33.0/UraniumUI.Material.aar",
+        "lib/net7.0-android33.0/UraniumUI.Material.dll",
+        "lib/net7.0-android33.0/UraniumUI.Material.pdb",
+        "lib/net7.0-android33.0/UraniumUI.Material.xml",
+        "lib/net7.0-ios16.1/UraniumUI.Material.dll",
+        "lib/net7.0-ios16.1/UraniumUI.Material.pdb",
+        "lib/net7.0-maccatalyst16.1/UraniumUI.Material.dll",
+        "lib/net7.0-maccatalyst16.1/UraniumUI.Material.pdb",
+        "lib/net7.0-windows10.0.19041/UraniumUI.Material.dll",
+        "lib/net7.0-windows10.0.19041/UraniumUI.Material.pdb",
+        "lib/net7.0/UraniumUI.Material.dll",
+        "lib/net7.0/UraniumUI.Material.pdb",
+        "logo_128.png",
+        "uraniumui.material.2.4.4.nupkg.sha512",
+        "uraniumui.material.nuspec"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -27333,6 +30022,8 @@
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
       "SQLitePCLRaw.bundle_green >= 2.1.8",
+      "UraniumUI.Icons.FontAwesome >= 2.5.6",
+      "UraniumUI.Material >= 2.4.4",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -27355,6 +30046,8 @@
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
       "SQLitePCLRaw.bundle_green >= 2.1.8",
+      "UraniumUI.Icons.FontAwesome >= 2.5.6",
+      "UraniumUI.Material >= 2.4.4",
       "sqlite-net-pcl >= 1.9.172"
     ],
     "net7.0-maccatalyst16.1": [
@@ -27366,6 +30059,8 @@
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
       "SQLitePCLRaw.bundle_green >= 2.1.8",
+      "UraniumUI.Icons.FontAwesome >= 2.5.6",
+      "UraniumUI.Material >= 2.4.4",
       "sqlite-net-pcl >= 1.9.172"
     ],
     "net7.0-windows10.0.19041": [
@@ -27377,6 +30072,8 @@
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.101",
       "Microsoft.WindowsAppSDK >= 1.2.221209.1",
       "SQLitePCLRaw.bundle_green >= 2.1.8",
+      "UraniumUI.Icons.FontAwesome >= 2.5.6",
+      "UraniumUI.Material >= 2.4.4",
       "sqlite-net-pcl >= 1.9.172"
     ]
   },
@@ -27480,6 +30177,14 @@
           "SQLitePCLRaw.bundle_green": {
             "target": "Package",
             "version": "[2.1.8, )"
+          },
+          "UraniumUI.Icons.FontAwesome": {
+            "target": "Package",
+            "version": "[2.5.6, )"
+          },
+          "UraniumUI.Material": {
+            "target": "Package",
+            "version": "[2.4.4, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -27672,6 +30377,14 @@
             "target": "Package",
             "version": "[2.1.8, )"
           },
+          "UraniumUI.Icons.FontAwesome": {
+            "target": "Package",
+            "version": "[2.5.6, )"
+          },
+          "UraniumUI.Material": {
+            "target": "Package",
+            "version": "[2.4.4, )"
+          },
           "sqlite-net-pcl": {
             "target": "Package",
             "version": "[1.9.172, )"
@@ -27796,6 +30509,14 @@
             "target": "Package",
             "version": "[2.1.8, )"
           },
+          "UraniumUI.Icons.FontAwesome": {
+            "target": "Package",
+            "version": "[2.5.6, )"
+          },
+          "UraniumUI.Material": {
+            "target": "Package",
+            "version": "[2.4.4, )"
+          },
           "sqlite-net-pcl": {
             "target": "Package",
             "version": "[1.9.172, )"
@@ -27918,6 +30639,14 @@
           "SQLitePCLRaw.bundle_green": {
             "target": "Package",
             "version": "[2.1.8, )"
+          },
+          "UraniumUI.Icons.FontAwesome": {
+            "target": "Package",
+            "version": "[2.5.6, )"
+          },
+          "UraniumUI.Material": {
+            "target": "Package",
+            "version": "[2.4.4, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

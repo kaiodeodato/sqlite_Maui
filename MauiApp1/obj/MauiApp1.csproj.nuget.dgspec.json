@@ -101,6 +101,14 @@
               "target": "Package",
               "version": "[2.1.8, )"
             },
+            "UraniumUI.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[2.5.6, )"
+            },
+            "UraniumUI.Material": {
+              "target": "Package",
+              "version": "[2.4.4, )"
+            },
             "Xamarin.Android.Glide": {
               "target": "Package",
               "version": "[4.13.2.2, )",
@@ -292,6 +300,14 @@
               "target": "Package",
               "version": "[2.1.8, )"
             },
+            "UraniumUI.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[2.5.6, )"
+            },
+            "UraniumUI.Material": {
+              "target": "Package",
+              "version": "[2.4.4, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.9.172, )"
@@ -416,6 +432,14 @@
               "target": "Package",
               "version": "[2.1.8, )"
             },
+            "UraniumUI.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[2.5.6, )"
+            },
+            "UraniumUI.Material": {
+              "target": "Package",
+              "version": "[2.4.4, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.9.172, )"
@@ -538,6 +562,14 @@
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.8, )"
+            },
+            "UraniumUI.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[2.5.6, )"
+            },
+            "UraniumUI.Material": {
+              "target": "Package",
+              "version": "[2.4.4, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

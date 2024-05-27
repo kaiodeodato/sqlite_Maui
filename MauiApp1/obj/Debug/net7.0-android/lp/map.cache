@@ -158,3 +158,13 @@ Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 SQLitePCLRaw.lib.e_sqlite3.android.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+InputKit.Maui.dll
+Plainer.Maui.dll
+UraniumUI.dll
+UraniumUI.Material.dll
+InputKit.Maui.aar
+Plainer.Maui.aar
+UraniumUI.aar
+UraniumUI.Material.aar
+UraniumUI.Icons.FontAwesome.dll
+UraniumUI.Icons.FontAwesome.aar

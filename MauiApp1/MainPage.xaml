@@ -1,35 +1,72 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:fa="clr-namespace:UraniumUI.Icons.FontAwesome;assembly=UraniumUI.Icons.FontAwesome"
+             xmlns:material="http://schemas.enisn-projects.io/dotnet/maui/uraniumui/material"
              x:Class="MauiApp1.MainPage">
 
     <FlexLayout Direction="Column">
-        <VerticalStackLayout Padding="10" FlexLayout.Basis="400" BackgroundColor="Beige" >
-            <Entry x:Name="nameEntryField" Placeholder="Name" />
-            <Entry x:Name="emailEntryField" Placeholder="Email" />
-            <Entry x:Name="mobileEntryField" Placeholder="Mobile" />
-            <Button x:Name="saveButton" Text="Save" Clicked="saveButton_Clicked" />
+
+        
+
+        <Button x:Name="toggleButton" Text="Add Customer" FlexLayout.Basis="100" Clicked="toggleFormVisibilityButton_Clicked" IsVisible="true" Padding="2" BackgroundColor="LightSlateGray" Margin="2" TextColor="white"/>
+
+        <VerticalStackLayout x:Name="formLayout" Padding="10" FlexLayout.Basis="700" BackgroundColor="White" IsVisible="False" >
+
+            
+            <Image>
+                <Image.Source>
+                    <FontImageSource FontFamily="FASolid" Glyph="{x:Static fa:Solid.User}" Color="DarkSlateBlue" />
+                </Image.Source>
+            </Image>
+
+            <!--<material:TextField Title="Test" />-->
+
+            <Frame CornerRadius="10" Padding="2" Margin="10">
+                <Entry x:Name="nameEntryField" Placeholder="Name" Margin="15,0,15,0" />
+            </Frame>
+            <Frame CornerRadius="10" Padding="2" Margin="10">
+                <Entry x:Name="emailEntryField" Placeholder="Email" Margin="15,0,15,0" />
+            </Frame>
+            <Frame CornerRadius="10" Padding="2" Margin="10">
+                <Entry x:Name="mobileEntryField" Placeholder="Mobile" Margin="15,0,15,0" />
+            </Frame>
+            
+            
+            <Button x:Name="saveButton" Text="Save" Clicked="saveButton_Clicked" Padding="2" BackgroundColor="LightSlateGray" Margin="2" TextColor="white" />
+            <Button x:Name="closeButton" Text="Close" Clicked="closeFormButton_Clicked" Margin="2,5,2,2" Padding="2" BackgroundColor="DarkSlateBlue" TextColor="white" />
         </VerticalStackLayout>
-        <ListView x:Name="listView" FlexLayout.Grow="1" ItemTapped="listView_ItemTapped" >
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <VerticalStackLayout Padding="5">
-                            <Label Text="{Binding CutomerName}" FontSize="17" FontAttributes="Bold" />
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="Auto" />
-                                    <ColumnDefinition Width="*" />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <Label Grid.Column="0" Text="{Binding Email}" />
-                                <Label Grid.Column="2" Text="{Binding Mobile}" FontAttributes="Bold" />
-                            </Grid>
-                        </VerticalStackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+
+
+
+        <ScrollView>
+            
+
+            <ListView x:Name="listView" FlexLayout.Basis="600" ItemTapped="listView_ItemTapped" Margin="5,5,5,5"  >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            
+                            <Grid Padding="10">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="15" />
+                                        <RowDefinition Height="15" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Row="0" Grid.Column="0" Text="{Binding CustomerName}" FontSize="16" FontAttributes="Bold" HeightRequest="40" TextColor="DarkSlateGray" />
+                                    <Label Grid.Row="1" Grid.Column="0" Text="{Binding Email}" FontSize="12" TextColor="LightSlateGray" />
+                                    <Label Grid.RowSpan="2" Grid.Column="2" Text="{Binding Mobile}" TextColor="LightSlateGray" />
+                                </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+       
     </FlexLayout>
     
 </ContentPage>

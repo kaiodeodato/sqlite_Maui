@@ -1,15 +1,26 @@
-﻿namespace MauiApp1
+﻿using InputKit.Shared.Validations;
+
+namespace MauiApp1
 {
     public partial class MainPage : ContentPage
     {
         private readonly LocalDBService _dbService;
         private int _editCustomerId;
 
+       
+
         public MainPage(LocalDBService dbService)
         {
-            InitializeComponent();
-            _dbService = dbService;
-            Task.Run(async () => listView.ItemsSource = await _dbService.GetCustomers());
+            try
+            {
+                InitializeComponent();
+                _dbService = dbService;
+                Task.Run(async () => listView.ItemsSource = await _dbService.GetCustomers());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Exception: {ex}");
+            }
         }
                
         private async void saveButton_Clicked(object sender, EventArgs e)
@@ -65,6 +76,20 @@
                     break;
             }
         }
+
+        private void toggleFormVisibilityButton_Clicked(object sender, EventArgs e)
+        {
+            formLayout.IsVisible = !formLayout.IsVisible;
+            toggleButton.IsVisible = !toggleButton.IsVisible;
+        }
+
+        private void closeFormButton_Clicked(object sender, EventArgs e)
+        {
+            Console.WriteLine("hello");
+            formLayout.IsVisible = false;
+            toggleButton.IsVisible = true;
+        }
     }
 
+    
 }

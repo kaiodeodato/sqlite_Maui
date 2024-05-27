@@ -4,9 +4,16 @@
     {
         public App(MainPage mainPage)
         {
-            InitializeComponent();
-
-            MainPage = mainPage;
+            try
+            {
+                InitializeComponent();
+                MainPage = mainPage;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ocorreu um erro: {ex.Message}");
+            }
         }
+
     }
 }
